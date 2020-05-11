@@ -9,6 +9,8 @@ class Carni : public Plante {
   
   public:
   
+    void vendi();
+    void achete();
     void boit();
     void nourrit();
     void engraisse();

@@ -9,6 +9,8 @@ class Fleur : public Plante {
   
   public:
   
+    void vendi();
+    void achete();
     void boit();
     void engraisse();
     void tailler();

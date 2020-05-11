@@ -7,7 +7,13 @@
 
 // std::string _botanisteName;
   
- 
+    void Botaniste::vendre(Plante * cible){
+        cible->vendu();
+    }
+    
+    void Botaniste::acheter(Plante * cible){
+        cible->achete();
+    }
   
     void Botaniste::arroser(Plante * cible){
         cible->boit();

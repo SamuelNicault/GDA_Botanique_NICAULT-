@@ -5,6 +5,7 @@
 
 class Plante{
   protected:
+    int _argent = 50;
     int _valeur = 50;
     int _sante = 100;
     int _soif = 50;
@@ -18,6 +19,8 @@ class Plante{
   public:
     int _vie = 1;
     void virtual boit();
+    void virtual vendu();
+    void virtual achete();
     void virtual nourrit();
     void virtual tailler();
     void virtual engraisse();

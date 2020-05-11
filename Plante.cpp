@@ -5,6 +5,14 @@
 #include "Plante.h"
 
 /*    int _soif; int _fatigue; int _faim; std::string _nom; */
+    void Plante::vendu(){
+        _argent += _valeur;
+    }
+    
+    void Plante::achete(){
+        _argent -= 2;
+    }
+    
     void Plante::dort(){
         if(_soif > 100) {_sante -= 10; _soif = 50;};
         if(_soif > 60) {_age += 5;};
